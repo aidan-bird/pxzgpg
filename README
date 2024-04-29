@@ -23,7 +23,7 @@ dpxzaes.sh does the inverse of the process done by pxzaes.sh.
 
 Tools Used:
 pixz is used for parallelized compression/decompression, and gpg is used for 
-AES256 encryption/decryption.
+AES256 encryption/decryption. argon2 was used for password hashing.
 
 Performance Results:
 pxzaes.sh:   7.5220 s
